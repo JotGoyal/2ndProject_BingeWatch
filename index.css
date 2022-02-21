@@ -1,0 +1,210 @@
+body{
+    margin: auto;
+}
+
+.search{
+    height: 740px;
+    width: 100%;
+    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./images/bg1.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 740px; 
+}
+
+#header{
+    height: 60px;
+}
+
+.buttons button{
+    color: white;
+    float: left;
+}
+
+.heading{
+    margin-top: 15%;
+    /*margin-left: 40%;*/
+    text-align: center;
+}
+
+.firstblock{
+    height: 450px;
+    background-image: url(./images/peacemakerlandscape.jpg);
+    background-repeat: no-repeat;
+    background-size: 100% 450px; 
+}
+
+.left{
+    width: 500px;
+    border-left: 5px solid red;
+    margin-top: 7%;
+    position: absolute;
+}
+
+.lefttext{
+    font-style: bold;
+    padding-left: 49px;
+    max-width: 370px;
+    color: white;
+}
+
+.binge{
+    padding-left: 49px;
+}
+
+.binge button{
+    padding: 2%;
+    width: 180px;
+    background-color: rgba(128, 128, 128, 0.966);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+    font-style: bold;
+    margin-top: 3%;
+}
+
+.binge button:hover{
+    background-color: white;
+    color: black;
+}
+
+.secondblock{
+    height: 400px;
+    border: solid 2px red;
+    background-color: black;
+}
+
+.boxy{
+    background-color: rgba(236, 14, 14, 0.877);
+    color: white;
+    height: 100px;
+}
+
+.thirdblock{
+    height: 400px;
+    border: solid 2px orange;
+}
+
+.forthblock{
+    height: 400px;
+    border: solid 2px blue;
+}
+
+#footer{
+    height: 1020px;
+    border: 2px solid black;
+}
+
+.boldtext{
+    margin-top: 4%;
+    border: 2px solid red;
+    text-align: center;
+    width: 800px;
+    font-style: bold;
+    margin-left: 20%;
+}
+
+.para{
+    width: 800px;
+    height: 160px;
+    border: 2px solid red;
+    margin-left: 20%;
+    margin-top: 1%;
+}
+.section3{
+    text-align: center;
+}
+
+.learnabt{
+    margin-top: 2%;
+
+}
+
+.learnabt a{
+    text-decoration: none;
+    color: black;
+}
+
+.section3 hr{
+    width: 250px;
+    margin-left: 40%;
+}
+
+.microservices text{
+    margin-top: 2%;
+}
+
+.ques{
+    margin-top: 4%;
+    margin-left: 20%;
+    border: 2px solid red;
+    width: 63%;
+}
+
+.main{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    -webkit-box-align: center;
+    align-items: center;
+    width: 100%;
+}
+
+.itemcontainer{
+    margin: 0px;
+    width: 100%;
+}
+
+.item{
+    margin-bottom: 7px;
+    border-bottom: 1px solid rgb(5, 10, 25);
+    width: 100%;
+    color: rgb(5, 10, 25);
+    font: var(--ionic-body-copy-3-light);
+    margin-left:0.3%;
+}
+
+.styledbutton{
+    appearance: none;
+    box-sizing: border-box;
+    transition: color 0.1s ease-in 0s, opacity 0.1s ease-in 0s;
+    border-width: 0px;
+    background: none;
+    padding: 14px 40px 14px 14px;
+    width: 100%;
+    text-align: left;
+    color: inherit;
+    font: inherit;
+}
+
+.styledbutton span{
+    user-select: text !important;
+}
+
+.asktext{
+    margin-bottom: 7px;
+    border-bottom: 1px solid rgb(5, 10, 25);
+    margin-top: 4%;
+    text-align: center;
+    width: 40%;
+}
+
+.asktext span{
+    font-size: 20px;
+    text-decoration: bold;
+    margin-bottom: 5px;
+}
+
+/* .ques h2{
+    text-align: center;
+    color: rgb(5, 10, 25);
+    font: var(--ionic-header-4);
+}
+
+
+
+.d1{
+    width: 100%;
+}
+
+.ques span{
+    width: 80%;
+} */
