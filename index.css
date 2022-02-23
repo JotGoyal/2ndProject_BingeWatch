@@ -19,12 +19,6 @@ body{
     float: left;
 }
 
-.heading{
-    margin-top: 15%;
-    /*margin-left: 40%;*/
-    text-align: center;
-}
-
 .firstblock{
     height: 450px;
     background-image: url(./images/peacemakerlandscape.jpg);
@@ -67,20 +61,49 @@ body{
 }
 
 .secondblock{
-    height: 400px;
+    height: 500px;
     border: solid 2px red;
     background-color: black;
+    text-align: center;
 }
 
-.boxy{
-    background-color: rgba(236, 14, 14, 0.877);
+.text{
     color: white;
+}
+
+.heading{
+    margin-top: 7%;
+}
+
+.subheading{
+    margin: 14px 0px 0px;
+    color: rgb(218, 219, 224);
+    font: var(--ionic-body-copy-3);
+
+}
+.shelf{
+    text-align: center;
+    border: 2px solid black;
+    margin-left: 8%;
+    margin-top: 4%;
+}
+
+.minibox{
     height: 100px;
+    padding: 3%;
+    background-color: #1D222F;
+    margin-left: 1.5%;
+    text-align: center;
+    color: white;
 }
 
 .thirdblock{
-    height: 400px;
+    height: 100px;
     border: solid 2px orange;
+    background-color: #1D222F;
+    padding: 5%;
+    color: white;
+    text-align: center;
 }
 
 .forthblock{
