@@ -5,9 +5,9 @@ body{
 .search{
     height: 740px;
     width: 100%;
-    background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./images/bg1.jpg);
+    /* background-image: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ),url(./images/bg1.jpg);
     background-repeat: no-repeat;
-    background-size: 100% 740px; 
+    background-size: 100% 740px;  */
 }
 
 #header{
@@ -18,6 +18,8 @@ body{
     color: white;
     float: left;
 }
+
+
 
 .firstblock{
     height: 450px;
@@ -61,8 +63,8 @@ body{
 }
 
 .secondblock{
-    height: 500px;
-    border: solid 2px red;
+    height: 800px;
+    border: solid 2px rgb(8, 8, 8);
     background-color: black;
     text-align: center;
 }
@@ -99,11 +101,16 @@ body{
 
 .thirdblock{
     height: 100px;
-    border: solid 2px orange;
+    width: 100%;
     background-color: #1D222F;
-    padding: 5%;
     color: white;
     text-align: center;
+}
+
+.thirdblock h2{
+    margin-top: 2%;
+    position: absolute;
+    margin-left: 18%
 }
 
 .forthblock{
@@ -113,24 +120,23 @@ body{
 
 #footer{
     height: 1020px;
-    border: 2px solid black;
 }
 
-.boldtext{
-    margin-top: 4%;
-    border: 2px solid red;
+.headline{
+    margin-top: 8%;
     text-align: center;
     width: 800px;
     font-style: bold;
-    margin-left: 20%;
+    margin-left: 17%;
 }
 
-.para{
+.textarea{
     width: 800px;
-    height: 160px;
-    border: 2px solid red;
-    margin-left: 20%;
+    height: 170px;
+    margin-left: 17%;
     margin-top: 1%;
+    padding: 1% ;
+    text-align: justify;
 }
 .section3{
     text-align: center;
@@ -141,7 +147,7 @@ body{
 
 }
 
-.learnabt a{
+a{
     text-decoration: none;
     color: black;
 }
@@ -156,9 +162,8 @@ body{
 }
 
 .ques{
-    margin-top: 4%;
-    margin-left: 20%;
-    border: 2px solid red;
+    margin-top: 1.5%;
+    margin-left: 17%;
     width: 63%;
 }
 
@@ -181,40 +186,30 @@ body{
     border-bottom: 1px solid rgb(5, 10, 25);
     width: 100%;
     color: rgb(5, 10, 25);
-    font: var(--ionic-body-copy-3-light);
     margin-left:0.3%;
 }
 
-.styledbutton{
-    appearance: none;
-    box-sizing: border-box;
-    transition: color 0.1s ease-in 0s, opacity 0.1s ease-in 0s;
-    border-width: 0px;
-    background: none;
-    padding: 14px 40px 14px 14px;
-    width: 100%;
-    text-align: left;
-    color: inherit;
-    font: inherit;
-}
-
-.styledbutton span{
-    user-select: text !important;
-}
-
-.asktext{
+.queries{
     margin-bottom: 7px;
     border-bottom: 1px solid rgb(5, 10, 25);
     margin-top: 4%;
     text-align: center;
-    width: 40%;
+    width: 55%;
+    margin-left: 22%;
 }
 
-.asktext span{
-    font-size: 20px;
+.queries span{
+    font-size: 18px;
     text-decoration: bold;
     margin-bottom: 5px;
 }
+
+.anchor{
+    text-decoration: none;
+    color: black;
+}
+
+
 
 /* .ques h2{
     text-align: center;
