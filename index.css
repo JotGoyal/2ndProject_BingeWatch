@@ -152,7 +152,6 @@ body{
 }
 .section3{
     text-align: center;
-    border: red solid 2px;
     margin-left: 17%;
     width: 100%;
 }
@@ -174,7 +173,12 @@ body{
 .ques{
     margin-top: 1.5%;
     margin-left: 17%;
-    width: 63%;
+    width: 100%;
+
+}
+
+.card2{
+    background-color: black;
 }
 
 .main{
