@@ -14,6 +14,12 @@
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css"><script src="javascript.js"></script>
       </head>
     <body class="mydark">
+
+        <div>
+            <div id="coupon">
+                <button onClick="closeCoupon()">&times;</button>
+            </div>
+        </div>
         <div class="search">
             <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel"> 
               <div class="carousel-inner">
@@ -35,6 +41,8 @@
                 <span class="visually-hidden">Next</span>
               </button>
             </div>
+            <p id="out"></p>
+            <p id="weatherOut"></p>
             <div class="modechangebutton">
               <button type="button" class="btn btn-dark" onClick="changeMode()">Change Mode</button>
             </div>  
@@ -184,5 +192,9 @@
             </footer>   
         </div>
     </body>
+    <script>
+       window.onload=geolocation()
+       window.onload=loadCoupon()
+    </script>
 
 </html>
