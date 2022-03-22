@@ -21,14 +21,16 @@ body{
 }
 
 #coupon{
-    height:200px;
-    width:400px;
-    background-image:url(./images/coupon.png);
+    height:250px;
+    width:460px;
+    background-image:url(./images/coupon1.jfif);
     z-index:100;
     margin:auto;
     visibility: hidden;
     position: absolute;
     margin-left: 35%;
+    margin-top: 14%;
+    text-align: right;
 }
 
 .search{
